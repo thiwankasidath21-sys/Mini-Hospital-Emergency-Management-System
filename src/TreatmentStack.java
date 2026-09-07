@@ -1,4 +1,4 @@
-public class TreatmentHistoryStack {
+public class TreatmentStack {
 
     private class StackNode {
         String treatment;
@@ -12,7 +12,7 @@ public class TreatmentHistoryStack {
 
     private StackNode top;
 
-    public TreatmentHistoryStack() {
+    public TreatmentStack() {
         top = null;
     }
 

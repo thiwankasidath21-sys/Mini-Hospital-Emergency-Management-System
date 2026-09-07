@@ -1,4 +1,3 @@
-Main.java
 import java.util.Scanner;
 
 public class Main {
@@ -8,7 +7,7 @@ public class Main {
 
         PatientBST patientRecords = new PatientBST();
         EmergencyQueue emergencyQueue = new EmergencyQueue();
-        TreatmentHistoryStack treatmentHistory = new TreatmentHistoryStack();
+        TreatmentStack treatmentHistory = new TreatmentStack();
         VisitHistoryList visitHistory = new VisitHistoryList();
 
         int choice = 0;
@@ -98,7 +97,7 @@ public class Main {
                 System.out.println("Invalid choice, please try again.");
             }
         }
-        
+
 
         scanner.close();
     }
